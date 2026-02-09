@@ -11,6 +11,7 @@ export type LLMID =
 // OpenAI Models (UPDATED 5/13/24)
 export type OpenAILLMID =
   | "gpt-5.2" // GPT-5.2
+  | "gpt-5.2-chat-latest" // GPT-5.2 Chat
   | "gpt-4o" // GPT-4o
   | "gpt-4-turbo-preview" // GPT-4 Turbo
   | "gpt-4-vision-preview" // GPT-4 Vision
@@ -33,6 +34,7 @@ export type AnthropicLLMID =
   | "claude-3-opus-20240229" // Claude 3 Opus
   | "claude-3-5-sonnet-20240620" // Claude 3.5 Sonnet
   | "claude-3-5-sonnet-20241022" // Claude 3.5 Sonnet v2
+  | "claude-sonnet-4-5-20250929" // Claude Sonnet 4.5
 
 // Mistral Models
 export type MistralLLMID =
